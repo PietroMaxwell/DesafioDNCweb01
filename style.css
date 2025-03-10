@@ -1,0 +1,160 @@
+*{
+    margin: 0%;
+    font-family: "inter";
+}
+
+#titulomenusuperior {
+    width: 1024px;
+    height: 72px;
+    margin-top: 200px; 
+    margin-left: 62px;
+    line-height: 72px;
+    letter-spacing: -2.5%;
+    font-weight: 600;
+    font-size: 62px; 
+}
+
+#textomenusuperior{
+    width: 1024px;
+    height: 28px;
+    margin-top: 20px;
+    margin-left: 62px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+
+}
+
+#menusuperior{
+    background-color: #303030;
+    color: #ffffff;
+    width: 100%;
+    height: 475px;
+    margin-top: 0;
+    top: 0;
+    left: 0;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    position: absolute;
+    z-index: 1000;
+}
+
+
+#menuinformacional{
+    background-color: #f9f9f9;
+    margin-top: 475px;
+    margin-bottom: 100px; 
+    width: 100%;
+    height: 229px;
+    top: 0;
+    left: 0;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.icone{
+    margin-top: 90px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+
+#descricaoeimagem{
+    margin-top: 250px;
+    margin-left: 100px;
+    margin-bottom: 500px;
+    display: grid;
+    grid-auto-flow: column;
+    padding-bottom: 0px;
+    
+}
+
+.imagem{
+    margin: -150px;
+}
+
+#formulario{
+    background-color: #303030;
+    margin-top: -250px;
+    height: 638px;
+    width: 100%;
+}
+
+#tituloformulario{
+
+margin-top: 100px;
+width: 944px;
+height: 48px;
+left: 248px;
+top: 1565px;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 150%;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+#formulario {
+    background-color: #303030;
+    margin-top: -250px;
+    height: 638px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form1 {
+    width: 508px;
+    height: 72px;
+    margin-top: 60px;
+    border: 0px;
+    border-radius: 7px;
+    padding-left: 10px;
+    font-family: 'Inter';
+    vertical-align: middle;
+    color: #0000004D;
+    font-size: 24px;
+}
+
+.form2 {
+    width: 508px;
+    height: 72px;
+    margin-top: 50px;
+    border: 0px;
+    border-radius: 7px;
+    padding-left: 10px;
+    font-family: 'Inter';
+    vertical-align: middle;
+    color: #0000004D;
+    font-size: 24px;
+}
+
+button {
+    width: 286px;
+    height: 74px;
+    border: 0px;
+    border-radius: 10px;
+    background: #c07212;
+    margin-top: 60px;
+    vertical-align: middle;
+    margin-left: 100px;
+    color: #ffffff;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #c67c33;
+    color: #ffffff;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #876644;
+    transition-duration: 0.5s;
+}
+
